@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "66BCD3F01DDAC9FE00C7180D"
-               BuildableName = "PDD_test1.app"
-               BlueprintName = "PDD_test1"
-               ReferencedContainer = "container:PDD_test1.xcodeproj">
+               BuildableName = "PDD.app"
+               BlueprintName = "PDD"
+               ReferencedContainer = "container:PDD.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "66BCD4041DDAC9FE00C7180D"
-               BuildableName = "PDD_test1Tests.xctest"
-               BlueprintName = "PDD_test1Tests"
-               ReferencedContainer = "container:PDD_test1.xcodeproj">
+               BuildableName = "PDDTests.xctest"
+               BlueprintName = "PDDTests"
+               ReferencedContainer = "container:PDD.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "66BCD40F1DDAC9FE00C7180D"
-               BuildableName = "PDD_test1UITests.xctest"
-               BlueprintName = "PDD_test1UITests"
-               ReferencedContainer = "container:PDD_test1.xcodeproj">
+               BuildableName = "PDDUITests.xctest"
+               BlueprintName = "PDDUITests"
+               ReferencedContainer = "container:PDD.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "66BCD3F01DDAC9FE00C7180D"
-            BuildableName = "PDD_test1.app"
-            BlueprintName = "PDD_test1"
-            ReferencedContainer = "container:PDD_test1.xcodeproj">
+            BuildableName = "PDD.app"
+            BlueprintName = "PDD"
+            ReferencedContainer = "container:PDD.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "66BCD3F01DDAC9FE00C7180D"
-            BuildableName = "PDD_test1.app"
-            BlueprintName = "PDD_test1"
-            ReferencedContainer = "container:PDD_test1.xcodeproj">
+            BuildableName = "PDD.app"
+            BlueprintName = "PDD"
+            ReferencedContainer = "container:PDD.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "66BCD3F01DDAC9FE00C7180D"
-            BuildableName = "PDD_test1.app"
-            BlueprintName = "PDD_test1"
-            ReferencedContainer = "container:PDD_test1.xcodeproj">
+            BuildableName = "PDD.app"
+            BlueprintName = "PDD"
+            ReferencedContainer = "container:PDD.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

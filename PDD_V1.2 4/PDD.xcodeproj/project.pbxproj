@@ -39,15 +39,15 @@
 		6674168D1DEAD83B001861DB /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
 		6674168F1DEAD8DF001861DB /* DoctorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorTableViewController.swift; sourceTree = "<group>"; };
 		667416911DEAEA73001861DB /* DoctorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorCell.swift; sourceTree = "<group>"; };
-		66BCD3F11DDAC9FE00C7180D /* PDD_test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDD_test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BCD3F11DDAC9FE00C7180D /* PDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66BCD3F41DDAC9FE00C7180D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66BCD3F61DDAC9FE00C7180D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		66BCD3F91DDAC9FE00C7180D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66BCD3FB1DDAC9FE00C7180D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66BCD3FE1DDAC9FE00C7180D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66BCD4001DDAC9FE00C7180D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66BCD4051DDAC9FE00C7180D /* PDD_test1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDD_test1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		66BCD4101DDAC9FE00C7180D /* PDD_test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDD_test1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BCD4051DDAC9FE00C7180D /* PDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BCD4101DDAC9FE00C7180D /* PDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66BCD4141DDAC9FE00C7180D /* PDD_test1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDD_test1UITests.swift; sourceTree = "<group>"; };
 		66BCD4161DDAC9FE00C7180D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,8 +80,8 @@
 		66BCD3E81DDAC9FE00C7180D = {
 			isa = PBXGroup;
 			children = (
-				66BCD3F31DDAC9FE00C7180D /* PDD_test1 */,
-				66BCD4131DDAC9FE00C7180D /* PDD_test1UITests */,
+				66BCD3F31DDAC9FE00C7180D /* PDD */,
+				66BCD4131DDAC9FE00C7180D /* PDDUITests */,
 				66BCD3F21DDAC9FE00C7180D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		66BCD3F21DDAC9FE00C7180D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				66BCD3F11DDAC9FE00C7180D /* PDD_test1.app */,
-				66BCD4051DDAC9FE00C7180D /* PDD_test1Tests.xctest */,
-				66BCD4101DDAC9FE00C7180D /* PDD_test1UITests.xctest */,
+				66BCD3F11DDAC9FE00C7180D /* PDD.app */,
+				66BCD4051DDAC9FE00C7180D /* PDDTests.xctest */,
+				66BCD4101DDAC9FE00C7180D /* PDDUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		66BCD3F31DDAC9FE00C7180D /* PDD_test1 */ = {
+		66BCD3F31DDAC9FE00C7180D /* PDD */ = {
 			isa = PBXGroup;
 			children = (
 				66BCD3F41DDAC9FE00C7180D /* AppDelegate.swift */,
@@ -109,24 +109,26 @@
 				66BCD3FD1DDAC9FE00C7180D /* LaunchScreen.storyboard */,
 				66BCD4001DDAC9FE00C7180D /* Info.plist */,
 			);
+			name = PDD;
 			path = PDD_test1;
 			sourceTree = "<group>";
 		};
-		66BCD4131DDAC9FE00C7180D /* PDD_test1UITests */ = {
+		66BCD4131DDAC9FE00C7180D /* PDDUITests */ = {
 			isa = PBXGroup;
 			children = (
 				66BCD4141DDAC9FE00C7180D /* PDD_test1UITests.swift */,
 				66BCD4161DDAC9FE00C7180D /* Info.plist */,
 			);
+			name = PDDUITests;
 			path = PDD_test1UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		66BCD3F01DDAC9FE00C7180D /* PDD_test1 */ = {
+		66BCD3F01DDAC9FE00C7180D /* PDD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66BCD4191DDAC9FE00C7180D /* Build configuration list for PBXNativeTarget "PDD_test1" */;
+			buildConfigurationList = 66BCD4191DDAC9FE00C7180D /* Build configuration list for PBXNativeTarget "PDD" */;
 			buildPhases = (
 				66BCD3ED1DDAC9FE00C7180D /* Sources */,
 				66BCD3EE1DDAC9FE00C7180D /* Frameworks */,
@@ -136,14 +138,14 @@
 			);
 			dependencies = (
 			);
-			name = PDD_test1;
+			name = PDD;
 			productName = PDD_test1;
-			productReference = 66BCD3F11DDAC9FE00C7180D /* PDD_test1.app */;
+			productReference = 66BCD3F11DDAC9FE00C7180D /* PDD.app */;
 			productType = "com.apple.product-type.application";
 		};
-		66BCD4041DDAC9FE00C7180D /* PDD_test1Tests */ = {
+		66BCD4041DDAC9FE00C7180D /* PDDTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66BCD41C1DDAC9FE00C7180D /* Build configuration list for PBXNativeTarget "PDD_test1Tests" */;
+			buildConfigurationList = 66BCD41C1DDAC9FE00C7180D /* Build configuration list for PBXNativeTarget "PDDTests" */;
 			buildPhases = (
 				66BCD4011DDAC9FE00C7180D /* Sources */,
 				66BCD4021DDAC9FE00C7180D /* Frameworks */,
@@ -154,14 +156,14 @@
 			dependencies = (
 				66BCD4071DDAC9FE00C7180D /* PBXTargetDependency */,
 			);
-			name = PDD_test1Tests;
+			name = PDDTests;
 			productName = PDD_test1Tests;
-			productReference = 66BCD4051DDAC9FE00C7180D /* PDD_test1Tests.xctest */;
+			productReference = 66BCD4051DDAC9FE00C7180D /* PDDTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		66BCD40F1DDAC9FE00C7180D /* PDD_test1UITests */ = {
+		66BCD40F1DDAC9FE00C7180D /* PDDUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66BCD41F1DDAC9FE00C7180D /* Build configuration list for PBXNativeTarget "PDD_test1UITests" */;
+			buildConfigurationList = 66BCD41F1DDAC9FE00C7180D /* Build configuration list for PBXNativeTarget "PDDUITests" */;
 			buildPhases = (
 				66BCD40C1DDAC9FE00C7180D /* Sources */,
 				66BCD40D1DDAC9FE00C7180D /* Frameworks */,
@@ -172,9 +174,9 @@
 			dependencies = (
 				66BCD4121DDAC9FE00C7180D /* PBXTargetDependency */,
 			);
-			name = PDD_test1UITests;
+			name = PDDUITests;
 			productName = PDD_test1UITests;
-			productReference = 66BCD4101DDAC9FE00C7180D /* PDD_test1UITests.xctest */;
+			productReference = 66BCD4101DDAC9FE00C7180D /* PDDUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 66BCD3EC1DDAC9FE00C7180D /* Build configuration list for PBXProject "PDD_test1" */;
+			buildConfigurationList = 66BCD3EC1DDAC9FE00C7180D /* Build configuration list for PBXProject "PDD" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -216,9 +218,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				66BCD3F01DDAC9FE00C7180D /* PDD_test1 */,
-				66BCD4041DDAC9FE00C7180D /* PDD_test1Tests */,
-				66BCD40F1DDAC9FE00C7180D /* PDD_test1UITests */,
+				66BCD3F01DDAC9FE00C7180D /* PDD */,
+				66BCD4041DDAC9FE00C7180D /* PDDTests */,
+				66BCD40F1DDAC9FE00C7180D /* PDDUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -283,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		66BCD4071DDAC9FE00C7180D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 66BCD3F01DDAC9FE00C7180D /* PDD_test1 */;
+			target = 66BCD3F01DDAC9FE00C7180D /* PDD */;
 			targetProxy = 66BCD4061DDAC9FE00C7180D /* PBXContainerItemProxy */;
 		};
 		66BCD4121DDAC9FE00C7180D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 66BCD3F01DDAC9FE00C7180D /* PDD_test1 */;
+			target = 66BCD3F01DDAC9FE00C7180D /* PDD */;
 			targetProxy = 66BCD4111DDAC9FE00C7180D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -440,7 +442,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "hkbu.PDD-test1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDD_test1.app/PDD_test1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDD.app/PDD";
 			};
 			name = Debug;
 		};
@@ -454,7 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "hkbu.PDD-test1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDD_test1.app/PDD_test1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDD.app/PDD";
 			};
 			name = Release;
 		};
@@ -487,7 +489,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		66BCD3EC1DDAC9FE00C7180D /* Build configuration list for PBXProject "PDD_test1" */ = {
+		66BCD3EC1DDAC9FE00C7180D /* Build configuration list for PBXProject "PDD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66BCD4171DDAC9FE00C7180D /* Debug */,
@@ -496,7 +498,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66BCD4191DDAC9FE00C7180D /* Build configuration list for PBXNativeTarget "PDD_test1" */ = {
+		66BCD4191DDAC9FE00C7180D /* Build configuration list for PBXNativeTarget "PDD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66BCD41A1DDAC9FE00C7180D /* Debug */,
@@ -505,7 +507,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66BCD41C1DDAC9FE00C7180D /* Build configuration list for PBXNativeTarget "PDD_test1Tests" */ = {
+		66BCD41C1DDAC9FE00C7180D /* Build configuration list for PBXNativeTarget "PDDTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66BCD41D1DDAC9FE00C7180D /* Debug */,
@@ -514,7 +516,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66BCD41F1DDAC9FE00C7180D /* Build configuration list for PBXNativeTarget "PDD_test1UITests" */ = {
+		66BCD41F1DDAC9FE00C7180D /* Build configuration list for PBXNativeTarget "PDDUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66BCD4201DDAC9FE00C7180D /* Debug */,
