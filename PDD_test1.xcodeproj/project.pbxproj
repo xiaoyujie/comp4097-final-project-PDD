@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6674168E1DEAD83B001861DB /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674168D1DEAD83B001861DB /* Doctor.swift */; };
+		667416901DEAD8DF001861DB /* DoctorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674168F1DEAD8DF001861DB /* DoctorTableViewController.swift */; };
+		667416921DEAEA73001861DB /* DoctorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667416911DEAEA73001861DB /* DoctorCell.swift */; };
 		66BCD3F51DDAC9FE00C7180D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BCD3F41DDAC9FE00C7180D /* AppDelegate.swift */; };
 		66BCD3F71DDAC9FE00C7180D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BCD3F61DDAC9FE00C7180D /* ViewController.swift */; };
 		66BCD3FA1DDAC9FE00C7180D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BCD3F81DDAC9FE00C7180D /* Main.storyboard */; };
 		66BCD3FC1DDAC9FE00C7180D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BCD3FB1DDAC9FE00C7180D /* Assets.xcassets */; };
 		66BCD3FF1DDAC9FE00C7180D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BCD3FD1DDAC9FE00C7180D /* LaunchScreen.storyboard */; };
-		66BCD40A1DDAC9FE00C7180D /* PDD_test1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BCD4091DDAC9FE00C7180D /* PDD_test1Tests.swift */; };
 		66BCD4151DDAC9FE00C7180D /* PDD_test1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BCD4141DDAC9FE00C7180D /* PDD_test1UITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6674168D1DEAD83B001861DB /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		6674168F1DEAD8DF001861DB /* DoctorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorTableViewController.swift; sourceTree = "<group>"; };
+		667416911DEAEA73001861DB /* DoctorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorCell.swift; sourceTree = "<group>"; };
 		66BCD3F11DDAC9FE00C7180D /* PDD_test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDD_test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66BCD3F41DDAC9FE00C7180D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66BCD3F61DDAC9FE00C7180D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,8 +47,6 @@
 		66BCD3FE1DDAC9FE00C7180D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66BCD4001DDAC9FE00C7180D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66BCD4051DDAC9FE00C7180D /* PDD_test1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDD_test1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		66BCD4091DDAC9FE00C7180D /* PDD_test1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDD_test1Tests.swift; sourceTree = "<group>"; };
-		66BCD40B1DDAC9FE00C7180D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66BCD4101DDAC9FE00C7180D /* PDD_test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDD_test1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66BCD4141DDAC9FE00C7180D /* PDD_test1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDD_test1UITests.swift; sourceTree = "<group>"; };
 		66BCD4161DDAC9FE00C7180D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				66BCD3F31DDAC9FE00C7180D /* PDD_test1 */,
-				66BCD4081DDAC9FE00C7180D /* PDD_test1Tests */,
 				66BCD4131DDAC9FE00C7180D /* PDD_test1UITests */,
 				66BCD3F21DDAC9FE00C7180D /* Products */,
 			);
@@ -100,20 +102,14 @@
 				66BCD3F41DDAC9FE00C7180D /* AppDelegate.swift */,
 				66BCD3F61DDAC9FE00C7180D /* ViewController.swift */,
 				66BCD3F81DDAC9FE00C7180D /* Main.storyboard */,
+				6674168D1DEAD83B001861DB /* Doctor.swift */,
+				6674168F1DEAD8DF001861DB /* DoctorTableViewController.swift */,
 				66BCD3FB1DDAC9FE00C7180D /* Assets.xcassets */,
+				667416911DEAEA73001861DB /* DoctorCell.swift */,
 				66BCD3FD1DDAC9FE00C7180D /* LaunchScreen.storyboard */,
 				66BCD4001DDAC9FE00C7180D /* Info.plist */,
 			);
 			path = PDD_test1;
-			sourceTree = "<group>";
-		};
-		66BCD4081DDAC9FE00C7180D /* PDD_test1Tests */ = {
-			isa = PBXGroup;
-			children = (
-				66BCD4091DDAC9FE00C7180D /* PDD_test1Tests.swift */,
-				66BCD40B1DDAC9FE00C7180D /* Info.plist */,
-			);
-			path = PDD_test1Tests;
 			sourceTree = "<group>";
 		};
 		66BCD4131DDAC9FE00C7180D /* PDD_test1UITests */ = {
@@ -259,8 +255,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				667416901DEAD8DF001861DB /* DoctorTableViewController.swift in Sources */,
+				6674168E1DEAD83B001861DB /* Doctor.swift in Sources */,
 				66BCD3F71DDAC9FE00C7180D /* ViewController.swift in Sources */,
 				66BCD3F51DDAC9FE00C7180D /* AppDelegate.swift in Sources */,
+				667416921DEAEA73001861DB /* DoctorCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66BCD40A1DDAC9FE00C7180D /* PDD_test1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +503,7 @@
 				66BCD41B1DDAC9FE00C7180D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66BCD41C1DDAC9FE00C7180D /* Build configuration list for PBXNativeTarget "PDD_test1Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +512,7 @@
 				66BCD41E1DDAC9FE00C7180D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66BCD41F1DDAC9FE00C7180D /* Build configuration list for PBXNativeTarget "PDD_test1UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +521,7 @@
 				66BCD4211DDAC9FE00C7180D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

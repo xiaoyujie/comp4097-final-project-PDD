@@ -10,9 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func checkWeb(_ sender: Any) {
+        if let url = NSURL(string: "https://www.comp.hkbu.edu.hk/v1/") {
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let backButton = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.plain, target: navigationController, action: nil)
+        navigationItem.leftBarButtonItem = backButton
     }
 
     override func didReceiveMemoryWarning() {

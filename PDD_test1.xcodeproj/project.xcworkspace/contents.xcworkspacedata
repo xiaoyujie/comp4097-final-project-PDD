@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PDD_test1.xcodeproj">
+      location = "self:/Users/xdeveloper/Desktop/PDD_test1/PDD_test1.xcodeproj">
    </FileRef>
 </Workspace>
